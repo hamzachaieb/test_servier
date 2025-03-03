@@ -86,6 +86,10 @@ Pour commencer, veuillez confirmer que les exigences suivantes sont remplies pou
 - `docker` (téléchargé depuis le [site officiel](https://www.docker.com/products/docker-desktop/)).
 
 ## Commandes
+Installer les dépendances
+```bash
+poetry install
+```
  Générer le fichier drug_mentions_graph.json
 ```bash
 poetry run main 
